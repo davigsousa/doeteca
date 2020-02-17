@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
 const Footer = () => (
   <footer className="footer">
-    <a
-      href="/doeteca/sobre"
+    <Link
+      to="/doeteca/sobre"
       className="about-button"
     >
       Clique aqui para saber mais sobre o projeto.
-    </a>
+    </Link>
 
     <span>
       Desenvolvido com
@@ -21,7 +22,7 @@ const Footer = () => (
         target="blank"
         rel="noopener noreferrer"
         href="https://github.com/davigsousa"
-        className="github-link"
+        className="github-a"
       >
         <strong> Davi Sousa</strong>
       </a>
