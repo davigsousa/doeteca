@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/doeteca/static/css/main.647af688.chunk.css",
+    "main.js": "/doeteca/static/js/main.f273f76c.chunk.js",
+    "main.js.map": "/doeteca/static/js/main.f273f76c.chunk.js.map",
+    "runtime-main.js": "/doeteca/static/js/runtime-main.0f326f21.js",
+    "runtime-main.js.map": "/doeteca/static/js/runtime-main.0f326f21.js.map",
+    "static/css/2.b9d25339.chunk.css": "/doeteca/static/css/2.b9d25339.chunk.css",
+    "static/js/2.6c1be262.chunk.js": "/doeteca/static/js/2.6c1be262.chunk.js",
+    "static/js/2.6c1be262.chunk.js.map": "/doeteca/static/js/2.6c1be262.chunk.js.map",
+    "index.html": "/doeteca/index.html",
+    "precache-manifest.171a819027bd8cb6adcaefe78268a8a3.js": "/doeteca/precache-manifest.171a819027bd8cb6adcaefe78268a8a3.js",
+    "service-worker.js": "/doeteca/service-worker.js",
+    "static/css/2.b9d25339.chunk.css.map": "/doeteca/static/css/2.b9d25339.chunk.css.map",
+    "static/css/main.647af688.chunk.css.map": "/doeteca/static/css/main.647af688.chunk.css.map",
+    "static/js/2.6c1be262.chunk.js.LICENSE": "/doeteca/static/js/2.6c1be262.chunk.js.LICENSE",
+    "static/media/book.png": "/doeteca/static/media/book.9ac31ecf.png",
+    "static/media/books1.jpg": "/doeteca/static/media/books1.ebbc0ed0.jpg",
+    "static/media/books2.jpg": "/doeteca/static/media/books2.034bec09.jpg",
+    "static/media/cover.jpg": "/doeteca/static/media/cover.e9c29148.jpg",
+    "static/media/font-awesome.min.css": "/doeteca/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.png": "/doeteca/static/media/logo.48bd15d7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f326f21.js",
+    "static/css/2.b9d25339.chunk.css",
+    "static/js/2.6c1be262.chunk.js",
+    "static/css/main.647af688.chunk.css",
+    "static/js/main.f273f76c.chunk.js"
+  ]
+}
