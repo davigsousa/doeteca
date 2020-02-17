@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  div.form-container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  form.form > img {
+    border-width: 0.6vw;
+    height: 30vw;
+    width: 30vw;
+    margin-bottom: 0.4vw;
+  }
+
+  form.form > h1 {
+    font-size: 7vw;
+    margin-bottom: 10vw;
+  }
+
+  form.form > p {
+    width: 80%;
+  }
+
+  form.form input {
+    margin-bottom: 4vw;
+    border-width: 0.6vw;
+    border-radius: 1vw;
+    padding: 1.5vw;
+    height: 10vw;
+    width: 80%;
+    font-size: 5vw;
+  }
+
+  form.form > button {
+    width: 80%;
+    height: 10vw;
+    font-size: 5vw;
+  }
+
+  form.form > hr {
+    width: 80%;
+  }
+
+  form.form > a {
+    margin-top: 5vw;
+    font-size: 5vw;
+  }
+}

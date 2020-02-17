@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+  div.app {
+    grid-template-rows: 16vw 1fr 20vw;
+  }
+
+  div.header {
+    height: 16vw;
+  }
+
+  div.title {
+    font-size: 5vw;
+  }
+
+  a.route-button {
+    height: 80%;
+    width: 40vw;
+    padding: 0 2vw 0 2vw;
+    border-radius: 3vw;
+  }
+  
+  a.route-button > img {
+    height: 80%;
+  }
+
+  div.header-text {
+    font-size: 5vw;
+  }
+
+  div.call {
+    font-size: 5vw;
+  }
+
+  footer.footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  a.about-button {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 2vw;
+    justify-content: center;
+    font-size: 4vw;
+    width: 100%;
+  }
+
+  a.about-button:hover {
+    font-size: 4.1vw;
+  }
+
+  footer.footer {
+    font-size: 4vw;
+  }
+}

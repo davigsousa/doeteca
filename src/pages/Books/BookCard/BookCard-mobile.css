@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  div.book-card {
+    font-size: 8vw;
+    margin-top: 6vw;
+    border-radius: 0;
+    width: 100%;
+    height: 45vw;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top: solid 0.5vw #ddd;
+    border-bottom: solid 0.5vw #ddd;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  div.book-card:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  div.thumbnail {
+    margin-left: 2vw;
+    width: 45%;
+    height: 100%;
+  }
+
+  div.thumbnail > img {
+    max-width: 70%;
+    height: 100%;
+  }
+
+  div.loading-thumbnail {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.book-information {
+    width: 67%;
+    height: 100%;
+    justify-content: center;
+    margin-right: 4vw;
+  }
+
+  div.book-description {
+    height: 13vw;
+  }
+
+  div.book-description > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vw;
+    white-space: nowrap;
+  }
+
+  div.book-description > p {
+    font-size: 3vw;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  div.user-information {
+    font-size: 3vw;
+  } 
+
+  button.card-button {
+    margin-top: 5vw;
+    font-size: 3vw;
+    width: 25vw;
+    height: 8vw;
+  }
+}

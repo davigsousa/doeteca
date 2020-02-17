@@ -1,0 +1,32 @@
+@import './style-mobile.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+  --default-color: #c3352b;
+  --darker-color: #922820;
+  --lighter-color: #f44336;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 6vw 1fr 3vw;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
+
+.content {
+  grid-row: content;
+}

@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  font-size: 1vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.8vw;
+  background-color: var(--darker-color);
+  color: white;
+  box-shadow: var(--shadow);
+  grid-row: footer;
+  white-space: nowrap;
+}
+
+.about-button {
+  display: flex;
+  flex-direction: row;
+  padding: 0.7vw;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5vw;
+  margin-right: 0.7vw;
+  width: 22vw;
+  white-space: nowrap;
+}
+
+.about-button:hover {
+  text-decoration: none;
+  font-size: 1.03vw;
+  color: white;
+  font-weight: bolder;
+}
+
+.github-link {
+  text-decoration: none;
+  color: white;
+}
+
+.github-link:hover {
+  color: #ccc;
+}

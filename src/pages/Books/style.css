@@ -1,0 +1,148 @@
+@import './style-mobile.css';
+@import './BookCard/BookCard.css';
+
+.books {
+  display: grid;
+  grid-template-rows: 20vw 1fr;
+  grid-template-areas: 
+    'header'
+    'gallery';
+}
+
+.books-header {
+  grid-area: header;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'image1 search image2';
+  -webkit-box-shadow: 0px 16px 55px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 16px 55px -25px rgba(0,0,0,0.75);
+  box-shadow: 0px 16px 55px -25px rgba(0,0,0,0.75);
+}
+
+.image1 {
+  grid-area: image1;
+}
+
+.image2 {
+  grid-area: image2;
+}
+
+.search-section {
+  grid-area: search;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.books-image {
+  width: 100%;
+  height: 100%;
+}
+
+.search-section > h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 4vw;
+  color: var(--default-color);
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  height: 2.7vw;
+  padding: 0 1.4vw 0 1vw;
+  color: white;
+  font-size: 1.2vw;
+
+  background-color: var(--default-color);
+  border-radius: 3vw;
+}
+
+.search-bar > i {
+  color: white;
+  margin-right: 0.4vw;
+}
+
+.search-bar > input {
+  background-color: var(--default-color);
+  border: none;
+  color: white;
+  width: 93%;
+  height: 2.7vw;
+}
+
+.books-gallery {
+  grid-area: gallery;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'c1' 'c2' 'c3';
+  padding: 0 5vw 5vw 5vw;
+}
+
+.books-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 1vw 1vw 0;
+}
+
+.books-footer > button {
+  background-color: white;
+  border: solid 0.15vw var(--default-color);
+  font-size: 1vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 3vw;
+  width: 7vw;
+  margin: 0 1vw;
+  border-radius: 0.4vw;
+}
+
+.books-footer > button:hover {
+  background-color: #ddd;
+}
+
+.loading-gallery {
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-gallery > p {
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+.book-not-found {
+  margin-top: 3vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  color: var(--default-color);
+  font-weight: bolder;
+  margin: auto;
+}
+
+.book-not-found > i {
+  font-size: 7vw;
+  margin-bottom: 2vw;
+}
