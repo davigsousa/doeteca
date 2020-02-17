@@ -30,6 +30,7 @@
 ## 🧐 About <a name = "about"></a>
 
 Doeteca is a project created by me, to facilitate the book giveaway for who need. So, to participate, you ask for a specific book e await for givers. <br>
+Inspired on [Winnieteca](https://twitter.com/WinnieTeca). <br>
 Then, I decided make this conceptual frontend project. Here, built on React and consuming a express api RESTful.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
