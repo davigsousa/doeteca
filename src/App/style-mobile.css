@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   div.app {
     grid-template-rows: 16vw 1fr 20vw;
   }

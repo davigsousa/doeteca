@@ -1,6 +1,6 @@
 @import './BookCard/BookCard-mobile.css';
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   div.books-header {
     -webkit-box-shadow: 0px 8px 25px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 8px 25px -12px rgba(0,0,0,0.75);
