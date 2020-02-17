@@ -5,9 +5,9 @@ import './style.css';
 
 import cover from '../../assets/cover.jpg';
 
-const Home = () => (
+const About = () => (
   <>
-    <div className="home-header">
+    <div className="about-header">
       <img src={cover} alt="Capa do Winnieteca" />
       <h1>O que é o Doeteca?</h1>
     </div>
@@ -17,4 +17,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default About;

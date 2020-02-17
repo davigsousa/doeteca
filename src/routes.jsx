@@ -5,7 +5,7 @@ import {
 import PropTypes from 'prop-types';
 
 import App from './App/index';
-import Home from './pages/Home';
+import About from './pages/About';
 import Books from './pages/Books';
 import Login from './pages/Login';
 
@@ -36,8 +36,8 @@ const Routes = () => (
   <BrowserRouter>
     <App>
       <Switch>
-        <Route exact path="/doeteca/" component={Home} />
-        <Route path="/doeteca/doar" component={Books} />
+        <Route exact path="/doeteca/" component={Books} />
+        <Route path="/doeteca/sobre" component={About} />
         <Route path="/doeteca/login" component={Login} />
         <Route path="/doeteca/signup" component={() => <h1>SignUp</h1>} />
         <PrivateRoute path="/doeteca/profile" component={() => <h1>Profile</h1>} />

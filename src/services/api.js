@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './auth';
 
 const api = axios.create({
-  baseURL: 'https://winnieteca.herokuapp.com/',
+  baseURL: 'https://doeteca.herokuapp.com/',
 });
 
 api.interceptors.request.use(async (config) => {

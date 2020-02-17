@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Link to="/doeteca/doar" className="link-logo">
+      <Link to="/doeteca/" className="link-logo">
         <div className="title">
           <img className="logo" src={logo} alt="doeteca logo" />
           Doeteca

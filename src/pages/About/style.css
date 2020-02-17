@@ -1,6 +1,6 @@
 @import './style-mobile.css';
 
-.home-header {
+.about-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,12 +11,12 @@
   box-shadow: 0px 10px 42px -13px rgba(0,0,0,0.75);
 }
 
-.home-header > img {
+.about-header > img {
   max-width: 47vw;
   max-height: 14.3vw;
 }
 
-.home-header > h1 {
+.about-header > h1 {
   margin-right: 18vw;
   font-size: 4vw;
   font-weight: bolder;
