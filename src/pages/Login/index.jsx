@@ -35,7 +35,7 @@ class Login extends Component {
 
         login(token, user);
 
-        history.push('/winnieteca/');
+        history.push('/doeteca/');
       } catch (err) {
         this.setState({ error: 'Houve um problema com o login, verifique as suas credenciais.' });
       }
@@ -65,7 +65,7 @@ class Login extends Component {
 
           <hr />
 
-          <Link to="/winnieteca/signup">Criar uma conta.</Link>
+          <Link to="/doeteca/signup" onClick={() => window.scrollTo(0, 0)}>Criar uma conta.</Link>
         </form>
       </div>
     );

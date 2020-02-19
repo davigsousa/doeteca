@@ -22,7 +22,7 @@ const Footer = () => (
         target="blank"
         rel="noopener noreferrer"
         href="https://github.com/davigsousa"
-        className="github-a"
+        className="github-link"
       >
         <strong> Davi Sousa</strong>
       </a>
