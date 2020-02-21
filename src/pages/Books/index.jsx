@@ -15,7 +15,7 @@ class Home extends Component {
     super(props);
 
     this.state = {
-      started: false,
+      loading: true,
       books: [],
       page: 1,
       totalPages: 0,
@@ -31,17 +31,19 @@ class Home extends Component {
     api.get(`/books?page=${page}`).then((response) => {
       const { totalPages, books } = response.data;
 
-      this.setState({ books, totalPages, started: true });
+      this.setState({ books, totalPages, loading: false });
     });
   }
 
   handleChangePage(nextPage) {
     const { search } = this.state;
 
+    this.setState({ loading: true });
+
     api.get(`/books?${search}page=${nextPage}`).then((response) => {
       const { books } = response.data;
 
-      this.setState({ books, page: nextPage });
+      this.setState({ books, page: nextPage, loading: false });
     });
 
     window.scrollTo(0, 0);
@@ -65,7 +67,7 @@ class Home extends Component {
 
   render() {
     const {
-      books, page, totalPages, started,
+      books, page, totalPages, loading,
     } = this.state;
 
     return (
@@ -83,11 +85,11 @@ class Home extends Component {
         </div>
 
         {
-          !started
+          loading
             ? (
               <div className="loading-thumbnail loading-gallery">
                 <i className="fa fa-spinner loading" />
-                <p>Carregando...</p>
+                <p>Conectando ao Banco de Dados...</p>
               </div>
             )
             : (
