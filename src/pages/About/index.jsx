@@ -8,11 +8,11 @@ import cover from '../../assets/cover.jpg';
 const About = () => (
   <>
     <div className="about-header">
-      <img src={cover} alt="Capa do Winnieteca" />
+      <img src={cover} alt="Capa do Doeteca" />
       <h1>O que é o Doeteca?</h1>
     </div>
     <div className="">
-      <Link to="/winnieteca/doar">Doar</Link>
+      <Link to="/doeteca/">Doar</Link>
     </div>
   </>
 );

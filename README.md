@@ -26,6 +26,7 @@
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
+- [Screenshots](#screenshots)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -83,3 +84,11 @@ npm start
 - [@davigsousa](https://github.com/davigsousa) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/davigsousa/doeteca/contributors) who participated in this project.
+
+## 📸 Screenshots <a name = "screenshots"></a>
+
+Desktop:
+<img width=1226px height=916px src="./screenshots/desktop.png" alt="Desktop view">
+
+Mobile:
+<img width=1079px height=1919px src="./screenshots/mobile.png" alt="Mobile view">
