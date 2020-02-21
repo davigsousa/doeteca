@@ -88,7 +88,7 @@ See also the list of [contributors](https://github.com/davigsousa/doeteca/contri
 ## 📸 Screenshots <a name = "screenshots"></a>
 
 Desktop:
-<img width=1226px height=916px src="./screenshots/desktop.png" alt="Desktop view">
+![Desktop View](./screenshots/desktop.png)
 
 Mobile:
-<img width=1079px height=1919px src="./screenshots/mobile.png" alt="Mobile view">
+![Mobile View](./screenshots/mobile.png)
