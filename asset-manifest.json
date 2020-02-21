@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/doeteca/static/css/main.94069d22.chunk.css",
-    "main.js": "/doeteca/static/js/main.6f6c2761.chunk.js",
-    "main.js.map": "/doeteca/static/js/main.6f6c2761.chunk.js.map",
+    "main.css": "/doeteca/static/css/main.7780f927.chunk.css",
+    "main.js": "/doeteca/static/js/main.90c70fb4.chunk.js",
+    "main.js.map": "/doeteca/static/js/main.90c70fb4.chunk.js.map",
     "runtime-main.js": "/doeteca/static/js/runtime-main.0f326f21.js",
     "runtime-main.js.map": "/doeteca/static/js/runtime-main.0f326f21.js.map",
-    "static/css/2.b9d25339.chunk.css": "/doeteca/static/css/2.b9d25339.chunk.css",
-    "static/js/2.0badcaac.chunk.js": "/doeteca/static/js/2.0badcaac.chunk.js",
-    "static/js/2.0badcaac.chunk.js.map": "/doeteca/static/js/2.0badcaac.chunk.js.map",
+    "static/css/2.c3a25a15.chunk.css": "/doeteca/static/css/2.c3a25a15.chunk.css",
+    "static/js/2.1633c91e.chunk.js": "/doeteca/static/js/2.1633c91e.chunk.js",
+    "static/js/2.1633c91e.chunk.js.map": "/doeteca/static/js/2.1633c91e.chunk.js.map",
     "index.html": "/doeteca/index.html",
-    "precache-manifest.7ddc4822f8b933d9f1c5586ef36594a7.js": "/doeteca/precache-manifest.7ddc4822f8b933d9f1c5586ef36594a7.js",
+    "precache-manifest.e816291bbf209890cb4a62f76172706c.js": "/doeteca/precache-manifest.e816291bbf209890cb4a62f76172706c.js",
     "service-worker.js": "/doeteca/service-worker.js",
-    "static/css/2.b9d25339.chunk.css.map": "/doeteca/static/css/2.b9d25339.chunk.css.map",
-    "static/css/main.94069d22.chunk.css.map": "/doeteca/static/css/main.94069d22.chunk.css.map",
-    "static/js/2.0badcaac.chunk.js.LICENSE": "/doeteca/static/js/2.0badcaac.chunk.js.LICENSE",
+    "static/css/2.c3a25a15.chunk.css.map": "/doeteca/static/css/2.c3a25a15.chunk.css.map",
+    "static/css/main.7780f927.chunk.css.map": "/doeteca/static/css/main.7780f927.chunk.css.map",
+    "static/js/2.1633c91e.chunk.js.LICENSE": "/doeteca/static/js/2.1633c91e.chunk.js.LICENSE",
     "static/media/book.png": "/doeteca/static/media/book.9ac31ecf.png",
     "static/media/books1.jpg": "/doeteca/static/media/books1.ebbc0ed0.jpg",
     "static/media/books2.jpg": "/doeteca/static/media/books2.034bec09.jpg",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0f326f21.js",
-    "static/css/2.b9d25339.chunk.css",
-    "static/js/2.0badcaac.chunk.js",
-    "static/css/main.94069d22.chunk.css",
-    "static/js/main.6f6c2761.chunk.js"
+    "static/css/2.c3a25a15.chunk.css",
+    "static/js/2.1633c91e.chunk.js",
+    "static/css/main.7780f927.chunk.css",
+    "static/js/main.90c70fb4.chunk.js"
   ]
 }

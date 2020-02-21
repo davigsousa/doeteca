@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e582918072da42426710e81e90615bd",
+    "revision": "90232c0670267101da5d57ba161e0de3",
     "url": "/doeteca/index.html"
   },
   {
-    "revision": "afc12cfde42e04f862a9",
-    "url": "/doeteca/static/css/2.b9d25339.chunk.css"
+    "revision": "c75834c492553fa3dbea",
+    "url": "/doeteca/static/css/2.c3a25a15.chunk.css"
   },
   {
-    "revision": "50c465dffdbb0d713767",
-    "url": "/doeteca/static/css/main.94069d22.chunk.css"
+    "revision": "e714a869cd4b9391e5c1",
+    "url": "/doeteca/static/css/main.7780f927.chunk.css"
   },
   {
-    "revision": "afc12cfde42e04f862a9",
-    "url": "/doeteca/static/js/2.0badcaac.chunk.js"
+    "revision": "c75834c492553fa3dbea",
+    "url": "/doeteca/static/js/2.1633c91e.chunk.js"
   },
   {
     "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
-    "url": "/doeteca/static/js/2.0badcaac.chunk.js.LICENSE"
+    "url": "/doeteca/static/js/2.1633c91e.chunk.js.LICENSE"
   },
   {
-    "revision": "50c465dffdbb0d713767",
-    "url": "/doeteca/static/js/main.6f6c2761.chunk.js"
+    "revision": "e714a869cd4b9391e5c1",
+    "url": "/doeteca/static/js/main.90c70fb4.chunk.js"
   },
   {
     "revision": "10b233e745c995f7a983",
