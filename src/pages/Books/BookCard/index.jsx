@@ -57,7 +57,7 @@ class BookCard extends Component {
 
             <div className="user-information">
               <i className="fa fa-twitter" />
-              <span>{twitterUsername}</span>
+              <span>{twitterUsername == '' ? 'Não informado' : twitterUsername}</span>
             </div>
           </div>
 

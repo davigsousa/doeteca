@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import avatar from '../../assets/avatar.png';
 import api from '../../services/api';
 
-import { login } from '../../services/auth';
+import './style.css';
 
 class Signup extends Component {
   constructor(props) {
@@ -13,11 +13,12 @@ class Signup extends Component {
 
     this.state = {
       fullName: '',
-      twitterUsername: '',
+      twitterUsername: null,
       email1: '',
       email2: '',
       password1: '',
       password2: '',
+      older: false,
       error: '',
     };
   }
@@ -26,6 +27,7 @@ class Signup extends Component {
     e.preventDefault();
 
     const {
+      older,
       fullName,
       twitterUsername,
       email1, email2,
@@ -33,35 +35,52 @@ class Signup extends Component {
     } = this.state;
     const { history } = this.props;
 
+    const setError = (msg) => {
+      window.scrollTo(0, 0);
+      this.setState({ error: msg });
+    };
 
     if (!email1 || !password1 || !email2 || !password2 || !fullName) {
-      window.scrollTo(0, 0);
-      this.setState({ error: 'Preencha todas as informações obrigatórias!' });
+      setError('Preencha todas as informações obrigatórias!');
+    } else if (email1 !== email2) {
+      setError('Verifique se os emails estão iguais!');
+    } else if (password1 !== password2) {
+      setError('Verifique se as senhas estão iguais!');
+    } else if (!older) {
+      setError('Confirme que possui mais de 18 anos!');
+      
     } else {
       try {
-        // const response = await api.post('/user', {
-        //   fullName, twitterUsername, email1, password1,
-        // });
-        // const { token, user } = response.data;
+        await api.post('/user', {
+          name: fullName, 
+          twitter_username: twitterUsername, 
+          email: email1, 
+          password: password1,
+        });
 
-        // login(token, user);
-
-        history.push('/doeteca/');
+        history.push('/doeteca/login');
       } catch (err) {
+        console.log(err)
         this.setState({ error: 'Houve um problema com o cadastro.' });
       }
     }
   }
 
   render() {
-    const { error } = this.state;
+    const { error, older } = this.state;
 
     return (
       <div className="form-container">
         <form className="form" onSubmit={(e) => this.handleSignUp(e)}>
           <img src={avatar} alt="Avatar" />
           <h1>Crie a sua conta.</h1>
+
           {error && <p>{error}</p>}
+
+          <div className="age-checkbox">
+            <input type="checkbox" onClick={() => this.setState({ older: !older })} />
+            Confirmo que tenho mais de 18 anos.
+          </div>
           <input
             type="name"
             placeholder="Nome e Sobrenome (Ex: Davi Sousa)"
@@ -70,7 +89,7 @@ class Signup extends Component {
           <input
             type="username"
             placeholder="Usuário do Twitter (Opcional)"
-            onChange={(e) => this.setState({ fullName: e.target.value })}
+            onChange={(e) => this.setState({ twitterUsername: e.target.value })}
           />
           <input
             type="email"

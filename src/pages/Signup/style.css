@@ -1,0 +1,13 @@
+.age-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+
+.age-checkbox > input {
+    width: 2vw;
+    margin: 0 1vw 0 0;
+}
