@@ -13,7 +13,7 @@ class Signup extends Component {
 
     this.state = {
       fullName: '',
-      twitterUsername: null,
+      twitterUsername: '',
       email1: '',
       email2: '',
       password1: '',
@@ -51,7 +51,7 @@ class Signup extends Component {
       
     } else {
       try {
-        await api.post('/user', {
+        await api.post('/users', {
           name: fullName, 
           twitter_username: twitterUsername, 
           email: email1, 
