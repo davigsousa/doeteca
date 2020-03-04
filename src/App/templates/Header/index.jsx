@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import { isAuthenticated } from '../../services/auth';
+import { isAuthenticated } from '../../../services/auth';
 
-import logo from '../../assets/logo.png';
-import avatar from '../../assets/avatar.png';
-import './Header.css';
+import logo from '../../../assets/logo.png';
+import avatar from '../../../assets/avatar.png';
+import './style.css';
 
 const LoginIfExists = () => {
   const route = isAuthenticated() ? '/doeteca/profile' : '/doeteca/login';
