@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 
 import avatar from '../../assets/avatar.png';
 import api from '../../services/api';
-import { ageAlert } from '../../configs/alerts';
-
-import AlertModal from '../../App/templates/AlertModal';
 
 import './style.css';
 
@@ -22,7 +19,6 @@ class Signup extends Component {
       password1: '',
       password2: '',
       older: false,
-      isOpen: false,
       error: '',
     };
   }
@@ -51,8 +47,7 @@ class Signup extends Component {
     } else if (password1 !== password2) {
       setError('Verifique se as senhas estão iguais!');
     } else if (!older) {
-      setError('Confirme que possui mais de 18 anos!');
-      
+      setError('Você deve ser maior de idade para utilizar o site, por favor, caso você seja menor de idade, chame os seus pais ou responsáveis para criarem uma conta.');
     } else {
       try {
         await api.post('/users', {
@@ -71,7 +66,7 @@ class Signup extends Component {
   }
 
   render() {
-    const { error, older, isOpen } = this.state;
+    const { error, older } = this.state;
 
     return (
       <div className="form-container">
@@ -121,13 +116,6 @@ class Signup extends Component {
 
           <Link to="/doeteca/login" onClick={() => window.scrollTo(0, 0)}>Já tem uma conta? Entrar</Link>
         </form>
-
-        <AlertModal
-          isOpen={isOpen}
-          label={ageAlert.label}
-          title={ageAlert.title}
-          description={ageAlert.description}
-        />
       </div>
     );
   }
