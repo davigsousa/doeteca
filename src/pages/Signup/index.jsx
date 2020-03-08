@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 
 import avatar from '../../assets/avatar.png';
 import api from '../../services/api';
+import { ageAlert } from '../../configs/alerts';
+
+import AlertModal from '../../App/templates/AlertModal';
 
 import './style.css';
 
@@ -19,6 +22,7 @@ class Signup extends Component {
       password1: '',
       password2: '',
       older: false,
+      isOpen: false,
       error: '',
     };
   }
@@ -67,7 +71,7 @@ class Signup extends Component {
   }
 
   render() {
-    const { error, older } = this.state;
+    const { error, older, isOpen } = this.state;
 
     return (
       <div className="form-container">
@@ -117,6 +121,13 @@ class Signup extends Component {
 
           <Link to="/doeteca/login" onClick={() => window.scrollTo(0, 0)}>Já tem uma conta? Entrar</Link>
         </form>
+
+        <AlertModal
+          isOpen={isOpen}
+          label={ageAlert.label}
+          title={ageAlert.title}
+          description={ageAlert.description}
+        />
       </div>
     );
   }

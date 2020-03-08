@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-modal';
 
+import './style.css';
+
 const AlertModal = ({
   isOpen, label, title, description,
 }) => {
@@ -11,6 +13,7 @@ const AlertModal = ({
     <Modal
       isOpen={open}
       contentLabel={label}
+      className="alert-modal"
     >
       <h1>{title}</h1>
       <p>{description}</p>
