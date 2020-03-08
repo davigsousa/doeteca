@@ -48,6 +48,8 @@ class Signup extends Component {
       setError('Verifique se as senhas estão iguais!');
     } else if (!older) {
       setError('Você deve ser maior de idade para utilizar o site, por favor, caso você seja menor de idade, chame os seus pais ou responsáveis para criarem uma conta.');
+    } else if (password1.length < 8) {
+      setError('Sua senha deve ter pelo menos 8 caracteres.');
     } else {
       try {
         await api.post('/users', {
@@ -59,7 +61,6 @@ class Signup extends Component {
 
         history.push('/doeteca/login');
       } catch (err) {
-        console.log(err)
         this.setState({ error: 'Houve um problema com o cadastro.' });
       }
     }
