@@ -91,6 +91,12 @@ class Signup extends Component {
             placeholder="Usuário do Twitter (Opcional)"
             onChange={(e) => this.setState({ twitterUsername: e.target.value })}
           />
+          <span
+            className="twitter-alert"
+          >
+            <i className="fa fa-exclamation-triangle" />
+            A sua conta do Twitter servirá como meio de contato e para exibir sua foto do perfil.
+          </span>
           <input
             type="email"
             placeholder="Endereço de e-mail"
