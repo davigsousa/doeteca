@@ -53,9 +53,9 @@ class Signup extends Component {
     } else {
       try {
         await api.post('/users', {
-          name: fullName, 
-          twitter_username: twitterUsername, 
-          email: email1, 
+          name: fullName,
+          twitter_username: twitterUsername,
+          email: email1,
           password: password1,
         });
 
