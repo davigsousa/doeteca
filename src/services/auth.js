@@ -13,6 +13,5 @@ export const login = (token, user) => {
 };
 
 export const logout = () => {
-  localStorage.removeItem(TOKEN_KEY);
-  localStorage.removeItem(USER_KEY);
+  localStorage.clear();
 };

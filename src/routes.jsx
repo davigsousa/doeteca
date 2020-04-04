@@ -8,7 +8,7 @@ import App from './App/index';
 import About from './pages/About';
 import Books from './pages/Books';
 import Login from './pages/Login';
-import Signup from './pages/Signup';
+import Profile from './pages/Profile';
 
 import { isAuthenticated } from './services/auth';
 
@@ -40,8 +40,7 @@ const Routes = () => (
         <Route exact path="/doeteca/" component={Books} />
         <Route path="/doeteca/sobre" component={About} />
         <Route path="/doeteca/login" component={Login} />
-        <Route path="/doeteca/signup" component={Signup} />
-        <PrivateRoute path="/doeteca/profile" component={() => <h1>Profile</h1>} />
+        <PrivateRoute path="/doeteca/perfil" component={Profile} />
         <Route path="/doeteca/*" component={() => <h1>Page not found.</h1>} />
       </Switch>
     </App>

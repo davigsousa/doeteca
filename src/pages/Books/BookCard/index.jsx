@@ -9,11 +9,11 @@ class BookCard extends Component {
 
     const { user, thumbnail } = this.props;
     const username = user.name;
-    const twitterUsername = user.twitter_username;
+    const email = user.email;
 
     this.state = {
       username,
-      twitterUsername,
+      email,
       thumbnail,
     };
   }
@@ -28,7 +28,7 @@ class BookCard extends Component {
 
   render() {
     const { name, author } = this.props;
-    const { username, twitterUsername, thumbnail } = this.state;
+    const { username, email, thumbnail } = this.state;
 
     return (
       <div className="book-card">
@@ -56,8 +56,8 @@ class BookCard extends Component {
             </div>
 
             <div className="user-information">
-              <i className="fa fa-twitter" />
-              <span>{twitterUsername === '' ? 'Não informado' : twitterUsername}</span>
+              <i className="fa fa-envelope" />
+              <span>{email === '' ? 'Não informado' : email}</span>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ BookCard.propTypes = {
   thumbnail: PropTypes.string,
   user: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    twitter_username: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
   }).isRequired,
 };
 

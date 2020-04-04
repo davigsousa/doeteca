@@ -1,22 +1,31 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import { isAuthenticated } from '../../../services/auth';
+import { isAuthenticated, getUser } from '../../../services/auth';
 
 import logo from '../../../assets/logo.png';
 import avatar from '../../../assets/avatar.png';
 import './style.css';
 
 const LoginIfExists = () => {
-  const route = isAuthenticated() ? '/doeteca/profile' : '/doeteca/login';
+  const route = isAuthenticated() ? '/doeteca/perfil' : '/doeteca/login';
 
   return (
     <Link to={route} className="route-button">
-      <img className="avatar" src={avatar} alt="Profile Avatar" />
       {
         isAuthenticated()
-          ? (<div className="header-text">Ver perfil</div>)
-          : (<div className="header-text">Participar</div>)
+          ? (
+            <>
+              <img className="avatar" src={getUser().picture} alt="Profile Avatar" />
+              <div className="header-text">{getUser().name}</div>
+            </>
+          )
+          : (
+            <>
+              <img className="avatar" src={avatar} alt="Profile Avatar" />
+              <div className="header-text">Participar</div>
+            </>
+          )
       }
     </Link>
   );
@@ -35,7 +44,7 @@ const Header = () => {
       </Link>
 
       {
-        pathname !== '/doeteca/login' && pathname !== '/doeteca/signup'
+        pathname !== '/doeteca/login'
           ? <LoginIfExists />
           : <div className="call">Junte-se a nós!</div>
       }

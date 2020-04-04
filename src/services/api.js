@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { getToken } from './auth';
 
+//https://doeteca.herokuapp.com/
 const api = axios.create({
-  baseURL: 'https://doeteca.herokuapp.com/',
+  baseURL: 'http://localhost:3333',
 });
 
 api.interceptors.request.use(async (config) => {
