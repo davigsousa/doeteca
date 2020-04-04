@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/doeteca/static/css/main.fa127367.chunk.css",
-    "main.js": "/doeteca/static/js/main.83f5016c.chunk.js",
-    "main.js.map": "/doeteca/static/js/main.83f5016c.chunk.js.map",
+    "main.js": "/doeteca/static/js/main.093fe100.chunk.js",
+    "main.js.map": "/doeteca/static/js/main.093fe100.chunk.js.map",
     "runtime-main.js": "/doeteca/static/js/runtime-main.0788c611.js",
     "runtime-main.js.map": "/doeteca/static/js/runtime-main.0788c611.js.map",
     "static/css/2.e1e3391e.chunk.css": "/doeteca/static/css/2.e1e3391e.chunk.css",
     "static/js/2.02c416a8.chunk.js": "/doeteca/static/js/2.02c416a8.chunk.js",
     "static/js/2.02c416a8.chunk.js.map": "/doeteca/static/js/2.02c416a8.chunk.js.map",
     "index.html": "/doeteca/index.html",
-    "precache-manifest.ab79290b4bb1a397871503f90e88d44b.js": "/doeteca/precache-manifest.ab79290b4bb1a397871503f90e88d44b.js",
+    "precache-manifest.b24236cecd667f6191ed5c21e5852008.js": "/doeteca/precache-manifest.b24236cecd667f6191ed5c21e5852008.js",
     "service-worker.js": "/doeteca/service-worker.js",
     "static/css/2.e1e3391e.chunk.css.map": "/doeteca/static/css/2.e1e3391e.chunk.css.map",
     "static/css/main.fa127367.chunk.css.map": "/doeteca/static/css/main.fa127367.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.e1e3391e.chunk.css",
     "static/js/2.02c416a8.chunk.js",
     "static/css/main.fa127367.chunk.css",
-    "static/js/main.83f5016c.chunk.js"
+    "static/js/main.093fe100.chunk.js"
   ]
 }
