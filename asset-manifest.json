@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/doeteca/static/css/main.fa127367.chunk.css",
-    "main.js": "/doeteca/static/js/main.093fe100.chunk.js",
-    "main.js.map": "/doeteca/static/js/main.093fe100.chunk.js.map",
+    "main.css": "/doeteca/static/css/main.77162426.chunk.css",
+    "main.js": "/doeteca/static/js/main.06bea7fa.chunk.js",
+    "main.js.map": "/doeteca/static/js/main.06bea7fa.chunk.js.map",
     "runtime-main.js": "/doeteca/static/js/runtime-main.0788c611.js",
     "runtime-main.js.map": "/doeteca/static/js/runtime-main.0788c611.js.map",
     "static/css/2.e1e3391e.chunk.css": "/doeteca/static/css/2.e1e3391e.chunk.css",
     "static/js/2.02c416a8.chunk.js": "/doeteca/static/js/2.02c416a8.chunk.js",
     "static/js/2.02c416a8.chunk.js.map": "/doeteca/static/js/2.02c416a8.chunk.js.map",
     "index.html": "/doeteca/index.html",
-    "precache-manifest.b24236cecd667f6191ed5c21e5852008.js": "/doeteca/precache-manifest.b24236cecd667f6191ed5c21e5852008.js",
+    "precache-manifest.86e703b6774860794df4b24e3c74d775.js": "/doeteca/precache-manifest.86e703b6774860794df4b24e3c74d775.js",
     "service-worker.js": "/doeteca/service-worker.js",
     "static/css/2.e1e3391e.chunk.css.map": "/doeteca/static/css/2.e1e3391e.chunk.css.map",
-    "static/css/main.fa127367.chunk.css.map": "/doeteca/static/css/main.fa127367.chunk.css.map",
+    "static/css/main.77162426.chunk.css.map": "/doeteca/static/css/main.77162426.chunk.css.map",
     "static/js/2.02c416a8.chunk.js.LICENSE.txt": "/doeteca/static/js/2.02c416a8.chunk.js.LICENSE.txt",
     "static/media/book.png": "/doeteca/static/media/book.9ac31ecf.png",
     "static/media/books1.jpg": "/doeteca/static/media/books1.ebbc0ed0.jpg",
     "static/media/books2.jpg": "/doeteca/static/media/books2.034bec09.jpg",
-    "static/media/cover.jpg": "/doeteca/static/media/cover.e9c29148.jpg",
+    "static/media/style.css": "/doeteca/static/media/cover.e9c29148.jpg",
     "static/media/font-awesome.min.css": "/doeteca/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/logo.png": "/doeteca/static/media/logo.48bd15d7.png"
   },
@@ -25,7 +25,7 @@
     "static/js/runtime-main.0788c611.js",
     "static/css/2.e1e3391e.chunk.css",
     "static/js/2.02c416a8.chunk.js",
-    "static/css/main.fa127367.chunk.css",
-    "static/js/main.093fe100.chunk.js"
+    "static/css/main.77162426.chunk.css",
+    "static/js/main.06bea7fa.chunk.js"
   ]
 }
