@@ -39,7 +39,7 @@ BookGalleryIfExists.propTypes = {
     thumbnail: PropTypes.string,
     owner: PropTypes.shape({
       name: PropTypes.string.isRequired,
-      twitter_username: PropTypes.string.isRequired,
+      email: PropTypes.string.isRequired,
     }).isRequired,
     id: PropTypes.number.isRequired,
   })),
