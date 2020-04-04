@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/doeteca/static/css/main.46179836.chunk.css",
-    "main.js": "/doeteca/static/js/main.e9eba708.chunk.js",
-    "main.js.map": "/doeteca/static/js/main.e9eba708.chunk.js.map",
+    "main.css": "/doeteca/static/css/main.fa127367.chunk.css",
+    "main.js": "/doeteca/static/js/main.83f5016c.chunk.js",
+    "main.js.map": "/doeteca/static/js/main.83f5016c.chunk.js.map",
     "runtime-main.js": "/doeteca/static/js/runtime-main.0788c611.js",
     "runtime-main.js.map": "/doeteca/static/js/runtime-main.0788c611.js.map",
     "static/css/2.e1e3391e.chunk.css": "/doeteca/static/css/2.e1e3391e.chunk.css",
-    "static/js/2.734af81b.chunk.js": "/doeteca/static/js/2.734af81b.chunk.js",
-    "static/js/2.734af81b.chunk.js.map": "/doeteca/static/js/2.734af81b.chunk.js.map",
+    "static/js/2.02c416a8.chunk.js": "/doeteca/static/js/2.02c416a8.chunk.js",
+    "static/js/2.02c416a8.chunk.js.map": "/doeteca/static/js/2.02c416a8.chunk.js.map",
     "index.html": "/doeteca/index.html",
-    "precache-manifest.41e69499834b7fb4eb0a04ddf69ba4b2.js": "/doeteca/precache-manifest.41e69499834b7fb4eb0a04ddf69ba4b2.js",
+    "precache-manifest.ab79290b4bb1a397871503f90e88d44b.js": "/doeteca/precache-manifest.ab79290b4bb1a397871503f90e88d44b.js",
     "service-worker.js": "/doeteca/service-worker.js",
     "static/css/2.e1e3391e.chunk.css.map": "/doeteca/static/css/2.e1e3391e.chunk.css.map",
-    "static/css/main.46179836.chunk.css.map": "/doeteca/static/css/main.46179836.chunk.css.map",
-    "static/js/2.734af81b.chunk.js.LICENSE.txt": "/doeteca/static/js/2.734af81b.chunk.js.LICENSE.txt",
+    "static/css/main.fa127367.chunk.css.map": "/doeteca/static/css/main.fa127367.chunk.css.map",
+    "static/js/2.02c416a8.chunk.js.LICENSE.txt": "/doeteca/static/js/2.02c416a8.chunk.js.LICENSE.txt",
     "static/media/book.png": "/doeteca/static/media/book.9ac31ecf.png",
     "static/media/books1.jpg": "/doeteca/static/media/books1.ebbc0ed0.jpg",
     "static/media/books2.jpg": "/doeteca/static/media/books2.034bec09.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.0788c611.js",
     "static/css/2.e1e3391e.chunk.css",
-    "static/js/2.734af81b.chunk.js",
-    "static/css/main.46179836.chunk.css",
-    "static/js/main.e9eba708.chunk.js"
+    "static/js/2.02c416a8.chunk.js",
+    "static/css/main.fa127367.chunk.css",
+    "static/js/main.83f5016c.chunk.js"
   ]
 }
