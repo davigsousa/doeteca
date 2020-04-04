@@ -49,9 +49,9 @@ class Login extends Component {
 
           <FacebookLogin
             appId="238480404000984"
-            autoLoad
             fields="name,email,picture"
             callback={this.handleFacebook}
+            language="pt_BR"
           />
 
         </form>
