@@ -1,52 +1,40 @@
 @media only screen and (max-width: 768px) {
-  div.form-container {
-    margin: 5vw 0 10vw 0;
-    height: 100%;
+  div.login-container {
+    flex-direction: column;
+  }
+
+  div.login-title {
     width: 100%;
-    border-radius: 0;
-    box-shadow: none;
+    max-height: 30vh;
+    padding: 3vh 0;
+    justify-content: space-between;
   }
 
-  form.form > img {
-    border-width: 0.6vw;
-    height: 30vw;
-    width: 30vw;
-    margin-bottom: 0.4vw;
+  div.login-title > h1 {
+    font-size: 4.5vh;
   }
 
-  form.form > h1 {
-    font-size: 7vw;
-    margin-bottom: 10vw;
+  div.social-area {
+    width: 100%;
+    height: 50vh;
   }
 
-  form.form > p {
-    width: 80%;
-    font-size: 4vw;
+  div.login-info > h2 {
+    font-size: 4vh;
   }
 
-  form.form input {
-    margin-bottom: 4vw;
-    border-width: 0.4vw;
-    border-radius: 1.3vw;
-    padding: 1.5vw;
-    height: 10vw;
-    width: 80%;
-    font-size: 3.6vw;
+  div.login-info > p {
+    font-size: 2vh;
   }
 
-  form.form > button {
-    width: 80%;
-    height: 10vw;
-    font-size: 5vw;
-    border-radius: 1.3vw;
+  button.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
   }
 
-  form.form > hr {
-    width: 80%;
-  }
-
-  form.form > a {
-    margin-top: 5vw;
-    font-size: 5vw;
+  button.social-button > i {
+    font-size: 3vh;
   }
 }
