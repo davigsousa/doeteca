@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caeb957e872265d37d2922dd09fc87d6",
+    "revision": "885a5e26ec5cc1058c184ad95feac7ae",
     "url": "/doeteca/index.html"
   },
   {
-    "revision": "c4ef7566c55658fdd7dc",
+    "revision": "996aa2cc38cb818f8804",
     "url": "/doeteca/static/css/2.e1e3391e.chunk.css"
   },
   {
-    "revision": "6e5bfdabbc6883061777",
-    "url": "/doeteca/static/css/main.77162426.chunk.css"
+    "revision": "4644656ef032f4b28e49",
+    "url": "/doeteca/static/css/main.91791556.chunk.css"
   },
   {
-    "revision": "c4ef7566c55658fdd7dc",
-    "url": "/doeteca/static/js/2.02c416a8.chunk.js"
+    "revision": "996aa2cc38cb818f8804",
+    "url": "/doeteca/static/js/2.5f7c4eba.chunk.js"
   },
   {
     "revision": "0bdc4f0d8b3d84ae6a73bb9902b479ee",
-    "url": "/doeteca/static/js/2.02c416a8.chunk.js.LICENSE.txt"
+    "url": "/doeteca/static/js/2.5f7c4eba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e5bfdabbc6883061777",
-    "url": "/doeteca/static/js/main.06bea7fa.chunk.js"
+    "revision": "4644656ef032f4b28e49",
+    "url": "/doeteca/static/js/main.3fbf5f18.chunk.js"
   },
   {
     "revision": "33b4db34170fd5a06969",
