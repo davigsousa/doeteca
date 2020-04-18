@@ -16,7 +16,7 @@
 
 <p align="center"> ⚠ Under in Progress...
     <br> 
-    Online on: https://davigsousa.github.io/doeteca
+    Online on: https://doeteca.netlify.app/
 </p>
 
 ## 📝 Table of Contents
