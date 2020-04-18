@@ -8,7 +8,7 @@ import avatar from '../../../assets/avatar.png';
 import './style.css';
 
 const LoginIfExists = () => {
-  const route = isAuthenticated() ? '/doeteca/perfil' : '/doeteca/login';
+  const route = isAuthenticated() ? '/perfil' : '/login';
 
   return (
     <Link to={route} className="route-button">
@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Link to="/doeteca/" className="link-logo">
+      <Link to="/" className="link-logo">
         <div className="title">
           <img className="logo" src={logo} alt="doeteca logo" />
           Doeteca
@@ -44,7 +44,7 @@ const Header = () => {
       </Link>
 
       {
-        pathname !== '/doeteca/login'
+        pathname !== '/login'
           ? <LoginIfExists />
           : <div className="call">Junte-se a nós!</div>
       }

@@ -37,10 +37,12 @@ class Login extends Component {
       login(token, user);
 
       const { history } = this.props;
-      history.push('/doeteca/');
+      history.push('/');
     };
 
-    this.handleFacebook = ({ accessToken, name, email, picture }) => {
+    this.handleFacebook = ({
+      accessToken, name, email, picture,
+    }) => {
       this.handleSocialMedia('facebook', accessToken, name, email, picture.data.url);
     };
 
@@ -82,14 +84,14 @@ class Login extends Component {
               onFailure={this.handleGoogle}
               autoLoad={false}
               render={
-                renderProps => (
-                  <button 
+                (renderProps) => (
+                  <button
                     type="button"
-                    onClick={renderProps.onClick} 
+                    onClick={renderProps.onClick}
                     disabled={renderProps.disabled}
                     className="social-button google"
                   >
-                    <i className="fa fa-google"/>
+                    <i className="fa fa-google" />
                     Fazer login com o Google
                   </button>
                 )

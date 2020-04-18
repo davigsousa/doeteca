@@ -12,7 +12,7 @@ const About = () => (
       <h1>O que é o Doeteca?</h1>
     </div>
     <div className="">
-      <Link to="/doeteca/">Doar</Link>
+      <Link to="/">Doar</Link>
     </div>
   </>
 );

@@ -7,17 +7,22 @@ import './style.css';
 
 function Profile({ history }) {
   return (
-    <button onClick={() => {
-      logout();
-      history.push('/doeteca/');
-    }}>Sair</button>
+    <button
+      onClick={() => {
+        logout();
+        history.push('/');
+      }}
+      type="button"
+    >
+      Sair
+    </button>
   );
 }
 
 Profile.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
-  })
-}
+  }),
+};
 
 export default Profile;

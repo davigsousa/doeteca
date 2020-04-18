@@ -6,7 +6,7 @@ import './style.css';
 const Footer = () => (
   <footer className="footer">
     <Link
-      to="/doeteca/sobre"
+      to="/sobre"
       className="about-button"
     >
       Clique aqui para saber mais sobre o projeto.

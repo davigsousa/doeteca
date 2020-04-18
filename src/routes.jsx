@@ -37,11 +37,11 @@ const Routes = () => (
   <BrowserRouter>
     <App>
       <Switch>
-        <Route exact path="/doeteca/" component={Books} />
-        <Route path="/doeteca/sobre" component={About} />
-        <Route path="/doeteca/login" component={Login} />
-        <PrivateRoute path="/doeteca/perfil" component={Profile} />
-        <Route path="/doeteca/*" component={() => <h1>Page not found.</h1>} />
+        <Route exact path="/" component={Books} />
+        <Route path="/sobre" component={About} />
+        <Route path="/login" component={Login} />
+        <PrivateRoute path="/perfil" component={Profile} />
+        <Route path="/*" component={() => <h1>Página não encontrada.</h1>} />
       </Switch>
     </App>
   </BrowserRouter>
