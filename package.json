@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "http://davigsousa.github.io/doeteca",
+  "homepage": "http://doeteca.netlify.app/doeteca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
